@@ -1,4 +1,4 @@
-## Creates a special object that stores a matrix and cache's its inverse matrix.
+## Creates a special object that stores a matrix and cache its inverse matrix.
 #
 # Args:
 #   x: One square invertible matrix.
@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # then the cachesolve should retrieve the inverse from the cache.
 #
 # Args:
-#   x: A special object that stores a matrix and cache's its inverse matrix.
+#   x: A special object that stores a matrix and cache its inverse matrix.
 #
 # Returns:
 #   The inverse of a given matrix.
